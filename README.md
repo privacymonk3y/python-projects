@@ -2,6 +2,13 @@
 A Repo for all the small things I've created
 ---
 
+**[PentesterAcademy Downloader]** - "**PA_playground.py**"
+```plaintext
+This is a version one of my downloader.
+Built while learning python and will improve over time.
+It will download all videos and files that are not lab links, ect.
+I've used it for a couple months without issue.
+```
 
 
 **[Monk3y-Bof]** - "**monk3y_bof.py**"

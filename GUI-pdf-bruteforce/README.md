@@ -2,7 +2,7 @@
 Install TKinter (Debian)  
 `sudo apt install python3-tk`
 
-Install requirements  
+Requirements  
 `pip install -r requirements.txt`
 
 Run GUI script  

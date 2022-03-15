@@ -1,11 +1,11 @@
 # Installing requirements
-Install TKinter (Debian)
+Install TKinter (Debian)  
 `sudo apt install python3-tk`
 
-Install requirements
+Install requirements  
 `pip install -r requirements.txt`
 
-Run GUI script
+Run GUI script  
 `python3 pdf-crack-gui.py`
 
 # PDF Cracking

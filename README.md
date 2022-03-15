@@ -1,6 +1,9 @@
 # Welcome to my monk3y made python projects
 
-*notice* - Updates are being applied. Reworking layout... some info may be incorrect in the mean time.
+### 🚨 Warning! 🚨 - Updates are being applied.
+### Reworking layout... some info may be incorrect in the mean time.
+
+---
 
 **[PentesterAcademy Downloader]** - "**PA_playground.py**"
 ```plaintext

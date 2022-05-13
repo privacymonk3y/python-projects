@@ -1,7 +1,7 @@
-# Welcome to my monk3y made python projects
+# Welcome to my Monk3y made python projects
 
-### 🚨 Warning! 🚨 - Updates are being applied.
-### Reworking layout... some info may be incorrect in the mean time.
+#### 🚨 Warning! 🚨 - Updates are being applied.
+#### Reworking layout... some info may be incorrect in the mean time.
 
 ---
 
@@ -17,7 +17,7 @@ I converted them to python3 and included it in a single GUI format.
 
 **[PentesterAcademy Downloader](https://github.com/privacymonk3y/python-projects/tree/main/Pentester_Academy_Downloader)** - "**PA_playground.py**"
 ```plaintext
-This is a version one of my downloader.
+This is version one of my downloader.
 Built while learning python and will improve over time.
 It will download all videos and files that are not lab links, ect.
 I've used it for a couple months without issue.

@@ -5,6 +5,16 @@
 
 ---
 
+## Custom Scripts
+
+**[PDF Bruteforcer - GUI](https://github.com/privacymonk3y/python-projects/tree/main/GUI-pdf-bruteforce)** - "**pdf-crack-gui.py**""
+
+```plaintext
+This was a play with tkinter and pdf bruteforcing.
+I originally worked this course on Pentester Academy which covered many of these topics in python2.
+I converted them to python3 and included it in a single GUI format.
+```
+
 **[PentesterAcademy Downloader](https://github.com/privacymonk3y/python-projects/tree/main/Pentester_Academy_Downloader)** - "**PA_playground.py**"
 ```plaintext
 This is a version one of my downloader.
@@ -13,6 +23,7 @@ It will download all videos and files that are not lab links, ect.
 I've used it for a couple months without issue.
 ```
 
+## OSCP Scripts
 
 **[Monk3y-Bof](https://github.com/privacymonk3y/python-projects/tree/main/OSCP/monk3y_bof)** - "**monk3y_bof.py**"
 
@@ -28,13 +39,4 @@ Just delete or comment out the lines you don't need.
 
 ```plaintext
 This script is to simplify the creation of large payloads for Microsoft macros.
-```
-
-
-**[PDF Bruteforcer - GUI](https://github.com/privacymonk3y/python-projects/tree/main/GUI-pdf-bruteforce)** - "**pdf-crack-gui.py**""
-
-```plaintext
-This was a play with tkinter and pdf bruteforcing.
-I originally worked this course on Pentester Academy which covered many of these topics in python2.
-I converted them to python3 and included it in a single GUI format.
 ```

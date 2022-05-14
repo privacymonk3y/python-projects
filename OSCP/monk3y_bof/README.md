@@ -1,5 +1,3 @@
-# Menu
-
 # OSCP BoF Cheat sheet Scripts
 
 This script is just something I created to have all of what I need in one place.

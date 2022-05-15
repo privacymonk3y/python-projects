@@ -15,7 +15,7 @@ BACKGROUND_COLOR = "lavender"
 
 # --------------- Make Dictionary --------------- #
 
-
+# Checks if the file exist and creates it if it doesn't.
 def does_file_exist():
     dic_name = name_input.get()
     if path.exists(dic_name):
@@ -31,7 +31,7 @@ def does_file_exist():
     else:
         create_dic()
 
-
+# Creates the dictionary file based off the provided inputs
 def create_dic():
     global CUSTOM_WORDLIST
     custom_wordlist = CUSTOM_WORDLIST
@@ -54,17 +54,17 @@ def create_dic():
 
 # --------------- Brute Force --------------- #
 
-
+# Opens PDF file
 def open_pdf():
     file = filedialog.askopenfilename()
     pdf_input.insert(0, file)
 
-
+# Opens wordlist file
 def open_wordlist():
     file = filedialog.askopenfilename()
     wl_file_input.insert(0, file)
 
-
+# Starts attacking pdf file with the wordlist provided.
 def pdf_bruteforce():
     start_brute_button.config(text="Running Bruteforce!")
     canvas.itemconfig(cracked_text, text="Running", fill="dodger blue")
@@ -94,7 +94,7 @@ def pdf_bruteforce():
                     break
             except:
                 pass
-
+    # Alerts the user of the status of the attack
     if cracked:
         canvas.itemconfig(cracked_text, text="Cracked!", fill="green")
         cracked_pass.insert(0, password)
@@ -105,7 +105,7 @@ def pdf_bruteforce():
         canvas.itemconfig(cracked_text, text="Failed!", fill="red")
     start_brute_button.config(text="Start Bruteforcing")
 
-
+# Copies the cracked password to clipboard
 def copy_button():
     password = cracked_pass.get()
     pyperclip.copy(password)
@@ -113,7 +113,7 @@ def copy_button():
 
 # --------------- Read Contents --------------- #
 
-
+# Gives the user a choice to save or read the pdf
 def read_or_save():
     switch = read_save_dropdown.get()
     pdf_f = read_pdf_input.get()
@@ -149,6 +149,7 @@ def read_or_save():
 
 # --------------- GUI --------------- #
 
+# Tkinter GUI Settings
 window = Tk()
 window.title("Monk3y PDF Cracker")
 window.config(padx=20, pady=20, bg=BACKGROUND_COLOR)

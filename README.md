@@ -40,3 +40,14 @@ Just delete or comment out the lines you don't need.
 ```plaintext
 This script is to simplify the creation of large payloads for Microsoft macros.
 ```
+
+## WIP Scripts
+
+*These are projects I'm currently working on or playing around with to learn functionality.*
+
+**[Nmap 2 Report](WIP\Nmap-2-Reports)** - **nmap-2-report.py**
+
+```plaintext
+A script to read nmap xml output files, parse the data and present it in a way that can be easy to import for report writting.
+The plan is to convert it into a clean graphical output, with the data formatted to be easy on the eyes.
+```

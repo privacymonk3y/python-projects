@@ -45,7 +45,7 @@ This script is to simplify the creation of large payloads for Microsoft macros.
 
 *These are projects I'm currently working on or playing around with to learn functionality.*
 
-**[Nmap 2 Report](WIP\Nmap-2-Reports)** - **nmap-2-report.py**
+**[Nmap 2 Report](https://github.com/privacymonk3y/python-projects/tree/main/WIP/Nmap-2-Reports)** - **nmap-2-report.py**
 
 ```plaintext
 A script to read nmap xml output files, parse the data and present it in a way that can be easy to import for report writting.
